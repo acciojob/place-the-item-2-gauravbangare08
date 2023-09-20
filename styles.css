@@ -1,2 +1,17 @@
 
 /* Your CSS Code here. */
+/* For the holder class */
+.holder {
+  display: flex; /* Display children in a row */
+  flex-wrap: wrap; /* Wrap items to the next row when necessary */
+
+}
+
+/* For the item class */
+.item {
+  flex: 0 0 auto; /* Allow items to grow or shrink as needed, but don't allow them to shrink to zero */
+  margin: 10px; /* Add spacing between items */
+  padding: 20px; /* Add padding for better visual appearance */
+  border: 1px solid #ccc; /* Add borders to the items for illustration */
+  background-color:green
+}

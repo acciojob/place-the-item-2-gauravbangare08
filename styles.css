@@ -4,7 +4,7 @@
 .holder {
   display: flex; /* Display children in a row */
   flex-wrap: wrap; /* Wrap items to the next row when necessary */
-
+  justify-content:center;
 }
 
 /* For the item class */
